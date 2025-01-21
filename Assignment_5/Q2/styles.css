@@ -1,0 +1,33 @@
+.windows{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cards{
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    gap: 20px;
+    width: 150px;
+}
+.cards:hover{
+    background-color: rgb(125, 231, 125);
+    transition: all 0.2s linear;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0,2);
+    cursor: pointer;
+    scale: 1.1;
+}
+.title{
+    font-weight: bold;
+}
+.desc{
+    text-align: center;
+}
