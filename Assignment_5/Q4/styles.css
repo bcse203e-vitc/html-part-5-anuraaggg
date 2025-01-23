@@ -1,0 +1,29 @@
+.button{
+    background-color: rgb(38, 243, 38);
+    border: 1px solid black;
+    padding: 14px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.dropdown{
+    display: none;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.wrapper:hover .dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.option{
+    cursor: pointer;
+}
+.option:hover{
+    background-color: rgb(25, 231, 234);
+}
